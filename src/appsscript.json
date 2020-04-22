@@ -1,0 +1,21 @@
+{
+  "timeZone": "Asia/Tokyo",
+  "dependencies": {
+    "libraries": [{
+      "userSymbol": "FirebaseApp",
+      "libraryId": "1hguuh4Zx72XVC1Zldm_vTtcUUKUA6iBUOoGnJUWLfqDWx5WlOJHqYkrt",
+      "version": "30"
+    }, {
+      "userSymbol": "Slack",
+      "libraryId": "1mbQHpsaqPtY7zLcXLWz_jpljFphUvmiWJPZXA0atuyS7h7IXu98inAhX",
+      "version": "5"
+    }]
+  },
+  "webapp": {
+    "access": "ANYONE_ANONYMOUS",
+    "executeAs": "USER_DEPLOYING"
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": ["https://www.googleapis.com/auth/userinfo.email", "https://www.googleapis.com/auth/firebase.database", "https://www.googleapis.com/auth/script.external_request"],
+  "runtimeVersion": "V8"
+}
